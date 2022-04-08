@@ -1,0 +1,51 @@
+.sectionBtn {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconBtn {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #757e9094;
+}
+
+.feedbackBtn {
+  overflow: hidden;
+  /* border: none; */
+  border-radius: 50%;
+  border: 2px solid #bedbee;
+
+  margin: 0;
+  padding: 10px;
+}
+
+.feedbackBtn:hover {
+  background-color: #50bbff4a;
+  border: 2px solid #009aff;
+}
+
+.feedbackBtn:hover .iconBtn__good {
+  background-color: #35cd15ab;
+}
+
+.feedbackBtn:hover .iconBtn__neutral {
+  background-color: #fff200;
+}
+
+.feedbackBtn:hover .iconBtn__bad {
+  background-color: #ff0000ab;
+}
+
+.feedbackBtn:active {
+  background-color: #1f9deb85;
+  border: 2px solid #2c39e9a2;
+}
+
+.percentageDataDiv {
+  border: 1px solid red;
+  /* width: auto; */
+  height: 17px;
+  background-color: blue;
+}
