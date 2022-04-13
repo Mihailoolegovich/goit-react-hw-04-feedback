@@ -19,9 +19,8 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
           >
             <img
               className={'iconBtn iconBtn__' + name}
-              name="good"
               src={icon}
-              alt={'emoji good' + name}
+              alt={'emoji ' + name}
             />
           </button>
         </li>

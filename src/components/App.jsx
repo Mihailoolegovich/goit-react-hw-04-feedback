@@ -3,7 +3,8 @@ import FeedbackOptions from 'components/FeedbackOptions';
 import Notification from './Statistics/Notification';
 import Statistics from './Statistics';
 import Section from './Section';
-import options from './data/options.json';
+// import options from './data/options.json';
+import options from '../data/options.json';
 
 export default function App() {
   const [good, setGood] = useState(0);
